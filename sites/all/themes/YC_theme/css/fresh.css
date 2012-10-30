@@ -14,7 +14,7 @@
 }
 
 #tilFrivillig, #tilSamarbejdspartner{
-	margin:10px 0;
+	margin:10px 0 0 0;
 }
 
 /**/
@@ -43,4 +43,56 @@
 
 #tilSamarbejdspartner a:hover{
 	background-position: -200px -290px;
+}
+
+/***Footer Views***/
+
+#footer{
+	min-height:100px;
+}
+
+.footerLeft{
+	width:auto;
+	float:left;
+}
+
+.footerRight{
+	width:auto;
+	float:right;
+}
+
+.views-row-last .footerRightCfdp{
+	display:none;
+}
+
+
+/***Read more style for a txt summery***/
+
+.node-readmore a{
+	color: #009;
+}
+.node-readmore a:hover{
+	color: #006;
+}
+
+/***Nyheds slideshow***/
+.nyhedsSlideshowBlok{
+	height:470px;
+}
+
+.views-field-field-slideshow-title{
+	position:absolute;
+	top:0.5em;
+	left:-0em;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: bolder;
+	font-size:24px;
+	display:block;
+	min-width:30%;
+	padding:10px 5px 10px;
+	opacity:0.9;
+	background-color: #f5f4ee;
+	box-shadow: 2px 2px 4px #999;-moz-box-shadow:  2px 2px 4px #999; -webkit-box-shadow:  2px 2px 4px #999; /*box-shadow: h-shadow v-shadow blur spread color inset*/
+
 }
