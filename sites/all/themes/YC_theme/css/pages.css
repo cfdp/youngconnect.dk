@@ -39,6 +39,8 @@ body {
 	padding: 1em 0 ;
 	background-color: #eaebeb;
 	box-shadow: 0px -2px 5px -5px #999; -moz-box-shadow: 0px -2px 5px -5px #999; -webkit-box-shadow: 0px -2px 5px -5px #999; /*box-shadow: h-shadow v-shadow blur spread color inset*/
+	position:relative;
+	z-index:1;
 }
 
 #HeaNavWrapper{
@@ -69,12 +71,14 @@ FoBoWrapper{
 	height: 100%;
 	margin: 0 auto -10em;
 	position:relative;
+	z-index:1;
 }
 
 #footerWrapper, #push {
 	height: 10em;
 	clear:both;
 }
+
 
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.

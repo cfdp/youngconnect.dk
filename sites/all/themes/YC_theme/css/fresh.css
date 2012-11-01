@@ -78,18 +78,26 @@
 /***Nyheds slideshow***/
 .nyhedsSlideshowBlok{
 	height:470px;
+	overflow:hidden;
+	z-index:1;
 }
 
-.views-field-field-slideshow-title{
-	position:absolute;
+.slideshowBillede{
+	position:  absolute;
+	z-index:2;
+}
+
+.slideshowTitle{
+	position:  absolute;
+	z-index:3;
 	top:0.5em;
-	left:-0em;
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color: #000;
 	font-weight: bolder;
 	font-size:24px;
 	display:block;
-	min-width:30%;
+	width:8em;
 	padding:10px 5px 10px;
 	opacity:0.9;
 	background-color: #f5f4ee;
