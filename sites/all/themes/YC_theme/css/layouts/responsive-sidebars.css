@@ -13,6 +13,7 @@
  * Center the page.
  */
 
+
 #page,
 .region-bottom, #HeaNavWrapper, #FoBoWrapper {
   /* For screen sizes larger than 1200px, prevent excessively long lines of text
@@ -87,14 +88,93 @@
     height: 3em;
     width: 100%;
   }
+  
+
 }
 
 /*
  * Use 3 grid columns for smaller screens.
  */
+ 
+@media all and (min-width: 100px) and (max-width: 640px) {
 
-@media all and (min-width: 480px) and (max-width: 959px) {
+  /*
+   * The layout when there is only one sidebar, the right one.
+   */
 
+  .sidebar-second #content { /* Span 2 columns, starting in 1st column from left. */
+    float: left;
+    width: 90%;
+    margin-left: 0%;
+    margin-right: -66.667%;
+	z-index:1;
+  }
+  
+  .sidebar-second .nyhedsSlideshowBlok{
+	height:200px;
+  }
+  .sidebar-second #headerWrapper{
+	height:50px;
+  }
+  
+  .sidebar-second #headerWrapper #logo{
+	height:100px;
+	width:100px;
+   }
+  .sidebar-second #headerWrapper #navigation{
+	height:auto;
+   }
+  .sidebar-second #headerWrapper #navigation a{
+	font-size:12px;
+   }
+  .sidebar-second #headerWrapper #navigation li{
+	width:auto;
+	height:auto;
+  }
+  .sidebar-second #headerWrapper #navigation #main-menu{
+	height:auto;
+  }
+  .sidebar-second #headerWrapper .menu_icon{
+	  height:auto;
+	  width:auto;
+	  padding:5px;
+	  background-image:none;
+	  margin:5px;
+   }
+  
+  .sidebar-second #footer {
+		width:95%;
+  } 
+  
+  .sidebar-second .region-sidebar-second { /* Span 1 column, starting in 3rd column from left. */
+    float: left;
+	width: 10%;
+    margin-left: 66.667%;
+    margin-right: -100%;
+	position:relative;
+  	z-index:10;
+	-webkit-transition: all 1s ease-in-out;
+  }
+  
+  
+  .sidebar-second .region-sidebar-second  #frontboxes { /* Span 1 column, starting in 3rd column from left. */
+  	margin-right:-175px;
+	padding-right:0px;
+	-webkit-transition: all 1s ease-in-out;
+  }
+  
+	.sidebar-second .region-sidebar-second:hover #frontboxes{ /* Span 1 column, starting in 3rd column from left. */
+  	-webkit-transform: translate(-175px,0);
+  }
+    .sidebar-second .region-sidebar-second:hover { /* Span 1 column, starting in 3rd column from left. */
+	 overflow: visible;
+  }/*********************/
+
+
+}
+
+@media all and (min-width: 640px) and (max-width: 959px) {
+/*640px  480px*/
   /*
    * The layout when there is only one sidebar, the left one.
    */
@@ -115,6 +195,10 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
+   
+  .sidebar-second .nyhedsSlideshowBlok{
+	height:300px;
+  }
 
   .sidebar-second #content { /* Span 2 columns, starting in 1st column from left. */
     float: left;
@@ -124,10 +208,18 @@
   }
   .sidebar-second .region-sidebar-second { /* Span 1 column, starting in 3rd column from left. */
     float: left;
-    width: 33.333%;
+	width: 33.333%;
     margin-left: 66.667%;
     margin-right: -100%;
   }
+  .sidebar-second .region-sidebar-second #frontboxes { /* Span 1 column, starting in 3rd column from left. */
+  	margin-right:0%;
+	padding-right: 0;
+	-webkit-transition: all 1s ease-in-out;
+  }
+  .sidebar-second .region-sidebar-second #frontboxes:hover { /* Span 1 column, starting in 3rd column from left. */
+  	-webkit-transform: translate(0%,0);
+  } /*********************/
 
   /*
    * The layout when there are two sidebars.
