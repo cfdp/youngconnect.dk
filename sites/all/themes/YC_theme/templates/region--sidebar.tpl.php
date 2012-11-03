@@ -28,7 +28,10 @@
 ?>
 
 <?php if ($content): ?>
-  <section class="<?php print $classes; ?>">
-    <?php print $content; ?>
+  <section class="<?php print $classes; ?>" >
+  	<div id="overlay-second-sidebar-secondButton" onclick="overlaySidebar()"></div>
+  	<div id="overlay-second-sidebar-second">
+	    <?php print $content; ?>
+    </div>
   </section><!-- region__sidebar -->
 <?php endif; ?>

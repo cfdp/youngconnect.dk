@@ -1,3 +1,5 @@
+/***sidemenu***/
+
 #frontboxes div{
 	width:200px;
 	height:145px;
@@ -79,6 +81,7 @@
 .nyhedsSlideshowBlok{
 	height:470px;
 	overflow:hidden;
+	position:relative;
 	z-index:1;
 }
 
@@ -89,7 +92,7 @@
 
 .slideshowTitle{
 	position:  absolute;
-	z-index:3;
+	z-index:2;
 	top:0.5em;
 	
 	font-family:Arial, Helvetica, sans-serif;
@@ -104,3 +107,7 @@
 	box-shadow: 2px 2px 4px #999;-moz-box-shadow:  2px 2px 4px #999; -webkit-box-shadow:  2px 2px 4px #999; /*box-shadow: h-shadow v-shadow blur spread color inset*/
 
 }
+
+
+/*******************/
+
