@@ -89,6 +89,9 @@
 	position:  absolute;
 	z-index:2;
 }
+.slideshowBillede img {
+    max-width: none;
+}
 
 .slideshowTitle{
 	position:  absolute;
