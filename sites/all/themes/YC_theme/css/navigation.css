@@ -35,7 +35,7 @@ main menu style on hyber links
 
 #main-menu li a:link, #main-menu li a:visited {
   color: #999;
-  background-position: center 10px;
+  background-position: center 0px;
 }
 ª
 #main-menu li a.active {
@@ -80,7 +80,7 @@ main menu style on hyber links
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
   float: left; /* LTR */
-  padding: 0 0 0 0; /* LTR */
+  padding: 25px 0 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
 }
@@ -102,7 +102,7 @@ main menu style on hyber links
 }
 
 #main-menu ul li{
-	width:200px;
+	width:160px;
 	height:100%;
 	float:left;
 	border-style: solid; border-color:#e0dedb; border-width:0px 1px 0 0;
