@@ -22,19 +22,17 @@
 /**/
 
 #digSomUng a{
-	background-image: url(../images/boxknapper2.jpg);
-	background-position:0px 0px;
+	background-image: url(../images/til-dig-der-er-ung.png);
 }
 
 #tilFrivillig a{
-	background-image: url(../images/boxknapper2.jpg);
-	background-position: 0px -145px;
+	background-image: url(../images/til-dig-som-er-frivillig.png);
 }
 #tilSamarbejdspartner a{
-	background-image: url(../images/boxknapper2.jpg);
-	background-position: 0px -290px;
+	background-image: url(../images/projektets-resultater.png);
 }
 
+/*
 #digSomUng a:hover{
 	background-position:-200px 0px;
 }
@@ -46,6 +44,7 @@
 #tilSamarbejdspartner a:hover{
 	background-position: -200px -290px;
 }
+*/
 
 /***Footer Views***/
 
