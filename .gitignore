@@ -8,3 +8,5 @@ sites/*/private
 .htaccess
 sites/default/files/.htaccess
 sites/all/modules/stage_file_proxy
+sites/all/modules/devel
+sites/all/modules/reroute_email
